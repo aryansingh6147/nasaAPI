@@ -1,0 +1,29 @@
+body {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+form.container4 {
+    height: 10em;
+    position: relative ;
+    margin-top: 17%;
+}
+form.container4 input[type=text] {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) ;
+    width: 800px;
+    height: 50px;
+    text-align: center;
+    border: 2px solid rgba(73, 61, 61, 0.822);
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.loader{
+    margin:  0% 20%;
+}
